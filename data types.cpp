@@ -1,7 +1,11 @@
-  int i2;
-
+  #include <iostream>
+using namespace std;
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    int i2;
     double d2;
-
     string s2;
     string tmp;
     getline(cin, tmp);
@@ -14,4 +18,4 @@
     d=d+d2;
     cout<<fixed<<setprecision(1)<<d<<endl;
     cout << s << s2 << endl;
-   
+    return 0;
