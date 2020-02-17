@@ -19,3 +19,4 @@ int main() {
     cout<<fixed<<setprecision(1)<<d<<endl;
     cout << s << s2 << endl;
     return 0;
+ 
